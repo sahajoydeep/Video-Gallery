@@ -65,7 +65,8 @@ toggleImage.addEventListener('click', function() {
         }, 500);
 
     } else if (toggleImage.src.endsWith('sakura.png')) {
-        document.getElementById('sakura').style.transform = 'rotate(360deg)';        
+        
+        sakura.style.transform = 'rotate(360deg)'; 
         setTimeout(() => { 
             toggleImage.src = 'sun.png';
         }, 250); 
