@@ -1,0 +1,52 @@
+.front {
+  pointer-events: all;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  flex: 1;
+  text-align: center;
+}
+
+.Video:hover {
+  background-color: plum;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Next {
+  display: none;
+  margin: 0 auto;
+}
+#darkmode, #light, #sakura {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  transition: transform 0.5s ease-in-out; /* Add transition for image rotation */
+}
+
+.Video {
+  font-size: 14px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#light, #sakura {
+  display: none;
+
+}
